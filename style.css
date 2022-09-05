@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-top: 250px;
+    background-color:white;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+.top-box{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+   flex-grow: 1;
+}
+.fa-solid{margin-left: 430px; font-size: 30px;}
+
+.fa-brands {font-size: 30px; padding: 5px; }
+
+.top-box p {
+    padding: 5px;
+   float: left;
+   position: absolute;
+   margin-left: 30px;
+   margin-top: 0;
+}
+.center-box{
+    background-color:blue;
+    flex-grow: 10;
+}
+
+.bottom-box{
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px;
+    flex-grow: 2;
+    background-color:white;
+}
+
+.bottom-box span {
+    display: block;
+    margin-top: 30px;
+}
+
+.fa-regular{
+    padding-left: 5px;
+    font-size: 40px;
+}
+
+.fa-bookmark{
+    margin-left: 250px;
+}
